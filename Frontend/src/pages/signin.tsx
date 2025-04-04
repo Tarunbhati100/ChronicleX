@@ -54,7 +54,7 @@ export function Signin(){
             <div className="flex justify-center ml-3">
                         <div className=" font-space text-3xl italics font-extrabold rotate-90">(:)</div>
                         <div className=" ml-1 text-xl font-bold font-space flex items-center">
-                            SafeSage
+                            ChronicleX
                         </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ export function Signin(){
                 <div className="absolute top-2 text-white z-10 flex justify-center ml-3">
                         <div className=" font-space text-3xl italics font-extrabold rotate-90">(:)</div>
                         <div className="text-white ml-1 text-xl font-bold font-space flex items-center">
-                            SafeSage
+                            ChronicleX
                         </div>
                 </div>
                 <div className="absolute w-full h-full top-0 bg-semi-black text-white flex flex-col justify-end p-5 items-end">

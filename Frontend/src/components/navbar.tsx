@@ -19,7 +19,7 @@ export const Logo = ()=>{
         <div className="flex justify-center">
             <div className=" font-space text-3xl italics font-extrabold rotate-90">(:)</div>
             <div className=" ml-1 text-xl font-bold font-space flex items-center">
-                Safesage.
+                ChronicleX.
             </div>
         </div>
     )

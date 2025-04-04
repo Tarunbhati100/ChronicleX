@@ -1,7 +1,7 @@
 export function TrendingSkeleton(){
     return (
         <div className="md:w-2/5 py-9 font-space">
-            <div className=" font-semibold">Trending on Safesage</div>
+            <div className=" font-semibold">Trending on ChronicleX</div>
             <div className="bg-white flex flex-col justify-center">
                 <BlogCard/>
                 <BlogCard/>

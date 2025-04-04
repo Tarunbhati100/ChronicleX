@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Signup } from './pages/signup'
 import { Signin } from './pages/signin'
@@ -16,6 +16,7 @@ function App() {
       <RecoilRoot>
       <BrowserRouter>
         <Routes>
+          <Route path='/' element={<Navigate to="/signin" />} />
           <Route path='/signup' element = {<Signup/>}/>
           <Route path='/signin' element = {<Signin/>}/>
           <Route path='/stories/:id' element = {<Storyid/>}/>

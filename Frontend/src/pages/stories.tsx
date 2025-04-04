@@ -95,7 +95,7 @@ export function Stories(){
                     <MainNavbar/>
                 </div>
                 <IntroCard/>
-                <BigCard id="" title="Welcome to Safesage." date="28-12-2001" author="vidit" tags={['sdvsdvsd','sdsdfsds','sdfsdf','sfsdfdasf','afdafaffas']} />
+                <BigCard id="" title="Welcome to ChronicleX." date="28-12-2001" author="vidit" tags={['sdvsdvsd','sdsdfsds','sdfsdf','sfsdfdasf','afdafaffas']} />
                 <div className="flex flex-wrap justify-center mx-20 mt-10 w-full snap-start items-center">
                     {blogs.map((item)=>{
                         return(
@@ -124,7 +124,7 @@ const IntroCard = ()=>{
     return(
         <div className="h-1/3 w-full snap-start flex justify-end items-end px-10 py-7 flex-col">
             <div className="font-space w-full text-center text-5xl font-bold flex items-center justify-center">
-                Welcome to Safesage.
+                Welcome to ChronicleX.
             </div>
             <div className="w-full text-center font-space"> The Latest industry news, interviews, technologies, and resources</div>
         </div>
