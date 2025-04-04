@@ -30,7 +30,7 @@ export function Blog(){
     }, []);
 
     const loaduser = async()=>{
-        const user = await axios.get(API_URL+'api/v1//user',{
+        const user = await axios.get(API_URL+'/api/v1/user',{
             headers:{
                 Authorization: localStorage.getItem('token')
             }
